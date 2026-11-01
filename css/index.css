@@ -1,0 +1,115 @@
+body {
+  font-family: "Manrope", sans-serif;
+  color: #1f1a3d;
+  background: #f5f4ff;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px 0 64px;
+}
+
+.hero {
+  padding: 48px 40px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(108, 99, 255, 0.12);
+  box-shadow: 0 12px 40px rgba(108, 99, 255, 0.12);
+  backdrop-filter: blur(8px);
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #ebe9ff;
+  color: #6c63ff;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.hero__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin-bottom: 16px;
+  letter-spacing: -0.03em;
+}
+
+.hero__text {
+  max-width: 620px;
+  color: #6b668a;
+  font-size: 1.05rem;
+  margin-bottom: 28px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-weight: 700;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn--primary {
+  background: #6c63ff;
+  color: #ffffff;
+}
+
+.btn--primary:hover {
+  background: #5548e8;
+}
+
+.btn--ghost {
+  background: #ffffff;
+  color: #6c63ff;
+  border: 1px solid rgba(108, 99, 255, 0.25);
+}
+
+.btn--ghost:hover {
+  background: #ebe9ff;
+}
+
+.skills-preview {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 1.35rem;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.skill-list__item {
+  flex: 1;
+  padding: 18px 12px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(108, 99, 255, 0.16);
+  color: #6c63ff;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(108, 99, 255, 0.06);
+}

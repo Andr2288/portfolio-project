@@ -1,0 +1,15 @@
+.footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0 40px;
+}
+
+.footer__item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}

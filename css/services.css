@@ -1,0 +1,56 @@
+body {
+  font-family: "Manrope", sans-serif;
+  color: #1f1a3d;
+  background: #f5f4ff;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 64px;
+}
+
+.page-intro {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+
+.page-text {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6b668a;
+  font-size: 1.05rem;
+}
+
+.services {
+  display: grid;
+  gap: 16px;
+}
+
+.service-card {
+  padding: 24px 28px;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(108, 99, 255, 0.12);
+  box-shadow: 0 12px 40px rgba(108, 99, 255, 0.12);
+}
+
+.service-card__title {
+  color: #6c63ff;
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.service-card__text {
+  color: #6b668a;
+}
